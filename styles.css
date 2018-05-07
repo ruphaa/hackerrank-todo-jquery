@@ -1,0 +1,90 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    width: 70%;
+    margin: 100px auto 0;
+}
+
+.todo-list-wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    padding: 1rem;
+    outline: 1px solid black;
+    display: flex;
+}
+
+.input-wrapper .arrow-wrapper {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-arrow {
+    border: solid black;
+    transform: rotate(45deg);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    padding: 0.25rem;
+}
+
+.input-wrapper input {
+    font-size: 1.4rem;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 0 1rem;
+}
+
+.list-wrapper .item-wrapper {
+    display: flex;
+    padding: 1rem;
+    outline: 1.5px solid black;
+}
+
+.checkbox-wrapper {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+input#checkBox {
+    margin: 0;
+    cursor: pointer;
+}
+                                                                              
+.item-desc {
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.remove-item {
+    padding: 0 1rem;
+    /* line-height: 1rem; */
+    font-size: 1.4rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.status-wrapper {
+    padding: 1rem;
+    outline: 1px solid black;
+}
