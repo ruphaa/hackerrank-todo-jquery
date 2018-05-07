@@ -15,13 +15,17 @@ body {
 }
 
 .container {
-    border: 1px solid var(--custom-black);
     width: 70%;
     margin: 100px auto 0;
 }
 
+h1 {
+    text-align: center;
+    margin: 3rem 0;  
+}
+
 .todo-list-wrapper {
-    border: 1px solid var(--custom-black);
+    outline: 1px solid var(--custom-black);
     display: flex;
     flex-direction: column;
 }
@@ -55,6 +59,7 @@ body {
     outline: none;
     padding: 0 1rem;
 }
+
 .list-wrapper {
     display: flex;
     flex-direction: column;
@@ -64,7 +69,7 @@ body {
 .list-wrapper .item-wrapper {
     display: flex;
     padding: 1rem;
-    outline: 1.5px solid var(--custom-black);
+    border-bottom: 1px solid var(--custom-black);
     align-items: center;
 }
 
